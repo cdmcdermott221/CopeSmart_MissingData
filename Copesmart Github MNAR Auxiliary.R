@@ -1411,16 +1411,16 @@ Total$MC_SE_SEs = c(NA, MCSE_LMMSE_1, MCSE_LMMSE_3, MCSE_LMMSE_5, MCSE_MxSE_1, M
 
 #adding coverage for each method
 Total$Coverage = c(
-  prop.table(table(UnDel_coverage[1:100,1]))[2],
-  prop.table(table(LMM_coverage[1:100,1]))[2],
-  prop.table(table(LMM_coverage2[1:100,1]))[2],
-  prop.table(table(LMM_coverage3[1:100,1]))[2],
-  prop.table(table(OpenMx_coverage[1:100,1]))[2],
-  prop.table(table(OpenMx_coverage2[1:100,1]))[2],
-  prop.table(table(OpenMx_coverage3[1:100,1]))[2],
-  prop.table(table(imp_coverage1[1:100,1]))[2],
-  prop.table(table(imp_coverage3[1:100,1]))[2],
-  prop.table(table(imp_coverage4[1:100,1]))[2],
+  prop.table(table(UnDel_coverage[1:1000,1]))[2],
+  prop.table(table(LMM_coverage[1:1000,1]))[2],
+  prop.table(table(LMM_coverage2[1:1000,1]))[2],
+  prop.table(table(LMM_coverage3[1:1000,1]))[2],
+  prop.table(table(OpenMx_coverage[1:1000,1]))[2],
+  prop.table(table(OpenMx_coverage2[1:1000,1]))[2],
+  prop.table(table(OpenMx_coverage3[1:1000,1]))[2],
+  prop.table(table(imp_coverage1[1:1000,1]))[2],
+  prop.table(table(imp_coverage3[1:1000,1]))[2],
+  prop.table(table(imp_coverage4[1:1000,1]))[2],
 )
 
 Total
